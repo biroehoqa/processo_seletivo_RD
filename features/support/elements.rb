@@ -22,6 +22,15 @@ class RegisterCustomer <SitePrism::Page
   element :address, "input[id='user_account_subscription_attributes_info_address']"
 end
 
-class AddUsers <SitePrism::Page
+class AddLeads <SitePrism::Page
   elements :footer_links, "#onboarding-invite-users-cta"
+  element :event_name, "input[id='source']"
+  element :lead_name, "input[id='lead_name']"
+  element :lead_email, "input[id='lead_email']"
+  element :lead_jtitle, "input[id='lead_job_title']"
+  element :lead_phone, "input[id='lead_lead_info_attributes_personal_phone']"
+  element :lead_celphone, "input[id='lead_lead_info_attributes_mobile_phone']"
+  element :lead_company_attr_name, "input[id='lead_company_attributes_name']"
+  element :lead_company_setor, "select[id='lead_company_attributes_company_sector_id']"
+  element :lead_company_size, "select[id='lead_company_attributes_size']"
 end
