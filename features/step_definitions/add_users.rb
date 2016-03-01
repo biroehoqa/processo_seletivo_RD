@@ -3,21 +3,20 @@
 
 Given(/^I click add users$/) do
   click_link 'Adicione usuários'
-  sleep 05
 end
 
 When(/^I click Convidar Usuario$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  click_button 'Convidar usuário'
 end
 
 When(/^I fill out the add fields for user$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  fill_in 'email', with: Faker::Internet.email
 end
 
 When(/^I send invitation$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  click_button 'Enviar convite'
 end
 
 Then(/^the user successfully invited$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  expect(page).to have_content 'convite enviado'
 end
