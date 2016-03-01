@@ -23,7 +23,6 @@ class RegisterCustomer <SitePrism::Page
 end
 
 class AddLeads <SitePrism::Page
-  elements :footer_links, "#onboarding-invite-users-cta"
   element :event_name, "input[id='source']"
   element :lead_name, "input[id='lead_name']"
   element :lead_email, "input[id='lead_email']"
@@ -33,4 +32,8 @@ class AddLeads <SitePrism::Page
   element :lead_company_attr_name, "input[id='lead_company_attributes_name']"
   element :lead_company_setor, "select[id='lead_company_attributes_company_sector_id']"
   element :lead_company_size, "select[id='lead_company_attributes_size']"
+end
+
+class CreateSegmentation <SitePrism::Page
+  element :segmentation_name, "input[id='segmentation_list_name']"
 end
