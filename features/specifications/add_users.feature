@@ -1,3 +1,4 @@
+@general
 Feature: Customer Registration success
 
   Scenario: As a user, I want register one customer

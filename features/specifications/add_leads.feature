@@ -1,3 +1,4 @@
+@general
 Feature: Add Leads
 
   Scenario: As a user, I want add leads
