@@ -20,7 +20,7 @@ This command will install all the gems needed to run the tests that are in Gemfi
 
 # Execute the tests
 
-- On path processo_seletivo_RD, execute this command for the start all tests: 
+- On path /processo_seletivo_RD, execute this command for the start all tests: 
 ```ruby
 cucumber
 ```
@@ -31,3 +31,12 @@ cucumber --require features features/specifications/xxx.feature
 # Screenshot on failed
 
 There is a folder called screenshots /processo_seletivo _RD/features/screenshot_on_failed that stores screenshots of any errors.
+
+Exists one scenario on failed called signu_from_homepage.feature on the path /processo_seletivo_RD/features/specifications. 
+For execute this test:
+PS: Execute from the /processo_seletivo _RD path
+
+```ruby
+cucumber --require features features/specifications/signup_from_homepage.feature
+```
+
