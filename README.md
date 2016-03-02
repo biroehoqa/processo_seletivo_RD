@@ -32,6 +32,12 @@ cucumber --require features features/specifications/xxx.feature
 
 There is a folder called screenshots /processo_seletivo _RD/features/screenshot_on_failed that stores screenshots of any errors.
 
+The folder support exist a file screenshot.rb. You must change the following code snippet:
+
+```ruby
+dir_path = "/..defined path is here../processo_seletivo_RD/features/screenshot_on_failed"
+```
+
 Exists one scenario on failed called signu_from_homepage.feature on the path /processo_seletivo_RD/features/specifications. 
 For execute this test:
 
