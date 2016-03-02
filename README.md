@@ -34,6 +34,7 @@ There is a folder called screenshots /processo_seletivo _RD/features/screenshot_
 
 Exists one scenario on failed called signu_from_homepage.feature on the path /processo_seletivo_RD/features/specifications. 
 For execute this test:
+
 PS: Execute from the /processo_seletivo _RD path
 
 ```ruby
